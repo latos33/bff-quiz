@@ -8,5 +8,4 @@ const getAllCategories = async () => {
 
 };
 
-
-module.exports  = { getAllCategories };
+module.exports = { getAllCategories };
