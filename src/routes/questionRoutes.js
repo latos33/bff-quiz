@@ -1,9 +1,8 @@
-const {Router} = require('express');
-const { getAllQuestions } = require('../services/questionsController');
+const { Router } = require('express');
+const { getQuestions } = require('../controllers/questionsController');
 
-const router = Router();
-
+const router = Router();    
 // GET /api/questions
-router.get('/', getAllQuestions);
+router.get('/', getQuestions);
 
 module.exports = router;
